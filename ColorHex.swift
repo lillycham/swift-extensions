@@ -10,6 +10,8 @@ import SwiftUI
 
 extension Color {
   init(hex: String) {
+    // Hex color initializer 
+    // Allows to use hex values (as String) as colors for SwiftUI's Color
     let hex = hex.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
     var int: UInt64 = 0
     Scanner(string: hex).scanHexInt64(&int)
