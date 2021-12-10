@@ -1,2 +1,2 @@
 # swift-extensions
-extensions file for swift
+extensions for swift
